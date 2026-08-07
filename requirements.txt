@@ -1,0 +1,13 @@
+# Core scientific Python stack — for the ML/DS drills
+numpy
+pandas
+scikit-learn
+
+# Plotting (handy for visualizing data/results)
+matplotlib
+
+# Optional: testing, if you ever move beyond inline asserts
+# pytest
+
+# Optional: notebooks, if you want to prototype interactively
+# jupyter
