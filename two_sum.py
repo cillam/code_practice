@@ -1,3 +1,8 @@
+# Problem: Two Sum
+# Difficulty: Easy
+# Pattern: Hash map / one-pass
+# Time: O(n)  |  Space: O(n)
+
 def two_sum(nums, target):
     seen = {}
     for i, num in enumerate(nums):

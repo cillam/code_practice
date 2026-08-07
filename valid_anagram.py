@@ -1,3 +1,9 @@
+# Problem: Valid Anagram
+# Difficulty: Easy
+# Pattern: Character counting (set of both strings)
+# Time: O(n * k), k = number of distinct characters  |  Space: O(n)
+
+
 #def is_anagram(s, t):
 #    return sorted(s) == sorted(t)
 
