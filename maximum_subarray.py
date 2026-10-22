@@ -13,13 +13,12 @@
 #   max_subarray([-3, -1, -2])                     -> -1  # all negative: pick the least-bad
 
 def max_subarray(nums):
-    sums = []
+    current = 0
+    best = min(nums)
     for i in range(len(nums)):
-        right = len(nums)
-        while right > i:
-            sums.append(sum(nums[i:right]))
-            right -= 1
-    return max(sums)
+        current = max(nums[i], current + nums[i])
+        best = max(best, current)
+    return best
 
 
 if __name__ == "__main__":
